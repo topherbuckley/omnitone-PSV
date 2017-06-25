@@ -12,5 +12,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christopher Buckley",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/topherbuckley/omnitone-PSV"
 }
