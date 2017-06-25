@@ -1,0 +1,16 @@
+{
+  "name": "omnitone-psv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "omnitone": "^0.2.2",
+    "photo-sphere-viewer": "^3.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
