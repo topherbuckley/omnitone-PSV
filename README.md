@@ -1,5 +1,5 @@
 # omnitone-PSV
-Demonstration of combining Photo-Sphere-Viewer with omitone for web-based VR with spatial audio. 
+Demonstration of combining [Photo-Sphere-Viewer](https://github.com/mistic100/Photo-Sphere-Viewer) with [omitone](https://github.com/GoogleChrome/omnitone) for web-based VR with spatial audio. 
 
 <h1>Installation</h1>
 Clone or copy repo.
