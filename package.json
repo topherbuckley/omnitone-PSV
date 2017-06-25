@@ -1,7 +1,7 @@
 {
   "name": "omnitone-psv",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demonstration of combining Photo-Sphere-Viewer with omitone for web-based VR with spatial audio.",
   "main": "index.js",
   "dependencies": {
     "omnitone": "^0.2.2",
@@ -12,5 +12,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
