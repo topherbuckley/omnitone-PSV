@@ -3,7 +3,6 @@ viewer = new PhotoSphereViewer({
   container: 'photosphere',
   panorama: 'images/beach.png',
   navbar: [
-    'autorotate',
     'zoom',
     'markers',
     {
@@ -17,13 +16,15 @@ viewer = new PhotoSphereViewer({
     },
     'caption',
     'fullscreen'
-  ]
+  ],
+  default_long: 0
 });
 
 /**** Omnitone Code ****/
 // Set up an audio element to feed the ambisonic source audio feed.
 var audioElement = document.createElement('audio');
-audioElement.src = 'audio/test_ambix.wav';
+audioElement.src = 'audio/AmbisonicSeaside.wav';
+audioElement.loop = true;
 
 // Create AudioContext, MediaElementSourceNode and FOARenderer.
 var audioContext = new AudioContext();

@@ -30,3 +30,8 @@ Should work on newest Firefox if run on localhost, but if not, run local server 
 You can of course use another local or live http server as well. 
 
 Then point broswer to 0.0.0.0:8000/index.html
+
+<h1>Aknowledgments</h1>
+
+Ambisonic ocean audio downloaded from [here](https://freesound.org/s/379230/) recorded by user volivieri. Used under Creative Commons Attribution 3.0 Unported license.
+
