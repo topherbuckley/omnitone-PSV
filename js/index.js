@@ -1,7 +1,7 @@
 /**** Photo-Sphere-Viewer ****/
 viewer = new PhotoSphereViewer({
   container: 'photosphere',
-  panorama: './images/beach.png',
+  panorama: '/images/beach.png',
   navbar: [
     'zoom',
     'caption',
@@ -13,7 +13,7 @@ viewer = new PhotoSphereViewer({
 /**** Omnitone Code ****/
 // Set up an audio element to feed the ambisonic source audio feed.
 var audioElement = document.createElement('audio');
-audioElement.src = './audio/AmbisonicSeasideFull.wav';
+audioElement.src = '/audio/AmbisonicSeasideFull.wav';
 audioElement.loop = true;
 
 // Create AudioContext, MediaElementSourceNode and FOARenderer.
@@ -21,7 +21,7 @@ var audioContext = new AudioContext();
 var audioElementSource =
     audioContext.createMediaElementSource(audioElement);
 var foaRenderer = Omnitone.createFOARenderer(audioContext, {
-    HRIRUrl: './HRTFs/sh_hrir_o_1.wav'
+    HRIRUrl: '/HRTFs/sh_hrir_o_1.wav'
   });
 
 // Make connection and start play.
