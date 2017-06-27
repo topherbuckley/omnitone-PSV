@@ -23,7 +23,7 @@ viewer = new PhotoSphereViewer({
 /**** Omnitone Code ****/
 // Set up an audio element to feed the ambisonic source audio feed.
 var audioElement = document.createElement('audio');
-audioElement.src = 'audio/AmbisonicSeaside.wav';
+audioElement.src = 'audio/AmbisonicSeasideLR.wav';
 audioElement.loop = true;
 
 // Create AudioContext, MediaElementSourceNode and FOARenderer.
