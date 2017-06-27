@@ -24,22 +24,24 @@
       line-height: 20px;
     }
   </style>
+
+  <!-- Use Omnitone from installed node_modules/ -->
+  <script src="node_modules/omnitone/build/omnitone.js"></script> 
+  <!-- Photo-Sphere-Viewer -->
+  <script src="node_modules/three/build/three.min.js"></script>
+  <script src="node_modules/d.js/lib/D.min.js"></script>
+  <script src="node_modules/uevent/uevent.min.js"></script>
+  <script src="node_modules/dot/doT.min.js"></script>
+
 </head>
 <body>
 
 	<div id="photosphere"></div>
   
-	<!-- Use Omnitone from installed node_modules/ -->
-	<script src="node_modules/omnitone/build/omnitone.js"></script>	
- 	<!-- Photo-Sphere-Viewer -->
-	<script src="node_modules/three/build/three.min.js"></script>
-	<script src="node_modules/d.js/lib/D.min.js"></script>
-	<script src="node_modules/uevent/uevent.min.js"></script>
-	<script src="node_modules/dot/doT.min.js"></script>
-	<script src="node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.js"></script>
+  <script src="node_modules/photo-sphere-viewer/dist/photo-sphere-viewer.js"></script>
+  <!-- Main Script -->
+  <script src="js/index.js"></script>
 
-	<!-- Main Script -->
-	<script src="js/index.js"></script>
 
 </body>
 </html>
